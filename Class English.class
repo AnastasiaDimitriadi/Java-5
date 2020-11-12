@@ -1,0 +1,15 @@
+package HumanPackage;
+public class English extends Human
+{
+	private String continent;
+	public English(String continent)
+	{
+		super();
+		this.continent=continent;
+		System.out.println(continent);
+	}
+	public void sayHello()
+	{
+		System.out.println("Hello\n");
+	}
+	}

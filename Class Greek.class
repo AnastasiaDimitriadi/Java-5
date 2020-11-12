@@ -1,0 +1,17 @@
+package HumanPackage;
+public class Greek extends Human
+{
+	private String origin;
+	public Greek(String origin)
+	{
+	 super();
+	 this.origin=origin;
+     System.out.println(origin);
+	}
+   
+  
+    public void sayHello()
+    {
+    	System.out.println("Geia");
+    }
+}
